@@ -1,0 +1,23 @@
+{
+	"extends": ["@rocketseat/eslint-config/react", "next/core-web-vitals"],
+  "rules": {
+    "prettier/prettier": ["error", {
+      "singleQuote": true,
+      "printWidth": 160,
+      "tabWidth": 2,
+      "useTabs": true,
+      "semi": true,
+      "jsxSingleQuote": true,
+      "trailingComma": "es5",
+      "bracketSpacing": true,
+      "bracketLine": true,
+      "arrowFunctionParens": "always"
+    }],
+    "camelcase": "off",
+    "no-undef": "off",
+    "prefer-const": "off",
+    "no-unused-vars": 0,
+    "dot-notation": "off",
+    "@typescript-eslint/no-unused-vars": "warn"
+  }
+}
